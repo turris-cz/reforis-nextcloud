@@ -5,13 +5,15 @@
  * See /LICENSE for more information.
  */
 
+import React from "react";
 import Nextcloud from "./nextcloud/Nextcloud";
+import NextcloudIcon from "./nextcloud/NextcloudIcon";
 
 const NextcloudPlugin = {
     name: _("Nextcloud"),
-    submenuId: "administration",
-    weight: 100,
+    weight: 76,
     path: "/nextcloud",
+    icon: <NextcloudIcon />,
     component: Nextcloud,
 };
 
