@@ -3,7 +3,7 @@
   "author": "CZ.NIC, z.s.p.o.",
   "license": "GPL-3.0",
   "version": "0.0.1",
-  "description": "Nextcloud reForis plugin.",
+  "description": "reForis NextCloud plugin.",
   "main": "./src/app.js",
   "dependencies": {
     "foris": "2.0.0"
