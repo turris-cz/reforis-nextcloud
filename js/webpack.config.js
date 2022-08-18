@@ -26,7 +26,7 @@ module.exports = () => ({
         rules: [
             {
                 test: /\.js$/,
-                exclude: /node_modules/,
+                exclude: /node_modules\/(?!foris)/,
                 loader: "babel-loader",
             },
             {
@@ -40,5 +40,6 @@ module.exports = () => ({
         "prop-types": "PropTypes",
         react: "React",
         "react-dom": "ReactDOM",
+        "react-router-dom": "ReactRouterDOM",
     },
 });
