@@ -1,4 +1,4 @@
-#  Copyright (C) 2019 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+#  Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -9,7 +9,7 @@ from http import HTTPStatus
 from flask import Blueprint, current_app, jsonify, request
 from flask_babel import gettext as _
 
-from reforis.foris_controller_api.utils import log_error, validate_json, APIError
+from reforis.foris_controller_api.utils import validate_json, APIError
 
 # pylint: disable=invalid-name
 blueprint = Blueprint(
@@ -30,17 +30,17 @@ nextcloud = {
 }
 
 
-@blueprint.route('/example', methods=['GET'])
-def get_example():
-    return jsonify(current_app.backend.perform('example_module', 'example_action'))
+@blueprint.route('/nextcloud', methods=['GET'])
+def get_status():
+    return jsonify(current_app.backend.perform('nextcloud', 'get_status'))
 
 
-@blueprint.route('/example', methods=['POST'])
-def post_example():
-    validate_json(request.json, {'modules': list})
+@blueprint.route('/nextcloud', methods=['POST'])
+def configure_nextcloud():
+    validate_json(request.json)
 
-    response = current_app.backend.perform('example_module', 'example_action', request.json)
+    response = current_app.backend.perform('nextcloud', 'configure_nextcloud', request.json)
     if response.get('result') is not True:
-        raise APIError(_('Cannot create entity'), HTTPStatus.INTERNAL_SERVER_ERROR)
+        raise APIError(_('Cannot configure Nextcloud'), HTTPStatus.INTERNAL_SERVER_ERROR)
 
-    return jsonify(response), HTTPStatus.CREATED
+    return jsonify(response), HTTPStatus.ACCEPTED
