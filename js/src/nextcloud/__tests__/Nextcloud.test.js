@@ -15,6 +15,9 @@ describe("<Nextcloud />", () => {
     it("should render component", () => {
         const { getByText } = render(<Nextcloud />);
         expect(getByText("Nextcloud")).toBeDefined();
-        expect(mockAxios.get).toBeCalledWith("/reforis/nextcloud/api/example", expect.anything());
+        expect(mockAxios.get).toBeCalledWith(
+            "/reforis/nextcloud/api/example",
+            expect.anything()
+        );
     });
 });

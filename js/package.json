@@ -1,60 +1,60 @@
 {
-  "name": "reforis_nextcloud",
-  "author": "CZ.NIC, z.s.p.o.",
-  "repository": {
-    "type": "git",
-    "url": "https://gitlab.nic.cz/turris/reforis/reforis-nextcloud.git"
-  },
-  "license": "GPL-3.0",
-  "version": "0.0.1",
-  "description": "reForis NextCloud plugin.",
-  "main": "./src/app.js",
-  "dependencies": {
-    "foris": "^5.4.1"
-  },
-  "peerDependencies": {
-    "prop-types": "15.8.1",
-    "react": "16.9.0",
-    "react-dom": "16.9.0",
-    "react-router-dom": "5.1.2"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/plugin-proposal-class-properties": "^7.4.4",
-    "@babel/plugin-transform-runtime": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
-    "@babel/preset-react": "^7.9.4",
-    "@testing-library/react": "^8.0.9",
-    "babel-jest": "^24.8.0",
-    "babel-loader": "^8.1.0",
-    "babel-plugin-react-transform": "^3.0.0",
-    "babel-polyfill": "^6.26.0",
-    "css-loader": "^5.2.6",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-config-reforis": "^1.0.0",
-    "eslint-plugin-prettier": "^3.4.1",
-    "immutability-helper": "3.0.1",
-    "jest": "^25.2.4",
-    "jest-mock-axios": "^3.2.0",
-    "moment-timezone": "^0.5.28",
-    "prettier": "^2.7.1",
-    "prop-types": "15.8.1",
-    "react": "16.9.0",
-    "react-dom": "16.9.0",
-    "snapshot-diff": "^0.5.1",
-    "style-loader": "^0.23.1",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
-  },
-  "scripts": {
-    "watch": "webpack --watch --mode=development --env.lighttpd",
-    "build": "webpack --mode=production --env.lighttpd",
-    "lint": "eslint src",
-    "lint:fix": "eslint --fix src",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage --colors"
-  }
+    "name": "reforis_nextcloud",
+    "author": "CZ.NIC, z.s.p.o.",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.nic.cz/turris/reforis/reforis-nextcloud.git"
+    },
+    "license": "GPL-3.0",
+    "version": "0.0.1",
+    "description": "reForis NextCloud plugin.",
+    "main": "./src/app.js",
+    "dependencies": {
+        "foris": "^5.4.1"
+    },
+    "peerDependencies": {
+        "prop-types": "15.8.1",
+        "react": "16.9.0",
+        "react-dom": "16.9.0",
+        "react-router-dom": "5.1.2"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.9.0",
+        "@babel/plugin-proposal-class-properties": "^7.4.4",
+        "@babel/plugin-transform-runtime": "^7.9.0",
+        "@babel/preset-env": "^7.9.0",
+        "@babel/preset-react": "^7.9.4",
+        "@testing-library/react": "^8.0.9",
+        "babel-jest": "^24.8.0",
+        "babel-loader": "^8.1.0",
+        "babel-plugin-react-transform": "^3.0.0",
+        "babel-polyfill": "^6.26.0",
+        "css-loader": "^5.2.6",
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.15.0",
+        "eslint-config-reforis": "^1.0.0",
+        "eslint-plugin-prettier": "^3.4.1",
+        "immutability-helper": "3.0.1",
+        "jest": "^25.2.4",
+        "jest-mock-axios": "^3.2.0",
+        "moment-timezone": "^0.5.28",
+        "prettier": "^2.7.1",
+        "prop-types": "15.8.1",
+        "react": "16.9.0",
+        "react-dom": "16.9.0",
+        "snapshot-diff": "^0.5.1",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11"
+    },
+    "scripts": {
+        "watch": "webpack --watch --mode=development --env.lighttpd",
+        "build": "webpack --mode=production --env.lighttpd",
+        "lint": "eslint src",
+        "lint:fix": "eslint --fix src",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "test:coverage": "jest --coverage --colors"
+    }
 }

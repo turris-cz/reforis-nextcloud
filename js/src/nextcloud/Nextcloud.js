@@ -36,7 +36,7 @@ export default function Nextcloud({ ws }) {
             <h1>{_("Nextcloud")}</h1>
             <p>
                 {_(
-                    "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server at home.",
+                    "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server at home."
                 )}
             </p>
             <ConfigurationWithErrorAndSpinner
@@ -50,7 +50,7 @@ export default function Nextcloud({ ws }) {
 }
 
 const ConfigurationWithErrorAndSpinner = withErrorMessage(
-    withSpinnerOnSending(Configuration),
+    withSpinnerOnSending(Configuration)
 );
 
 Configuration.propTypes = {
@@ -65,7 +65,7 @@ function Configuration({ ws, nextcloud, getNextcloud }) {
     const [configurationStateWS] = useWSForisModule(
         ws,
         "nextcloud",
-        "state_change",
+        "state_change"
     );
 
     useEffect(() => {
@@ -98,7 +98,7 @@ function Configuration({ ws, nextcloud, getNextcloud }) {
                 <p
                     dangerouslySetInnerHTML={{
                         __html: _(
-                            "You have configured your Nextcloud now you can visit the <a href=\"/nextcloud\" target=\"_blank\" rel=\"noopener noreferrer\">site<sup><i class=\"fas fa-external-link-alt fa-sm ml-1\"></i></sup></a>.",
+                            'You have configured your Nextcloud now you can visit the <a href="/nextcloud" target="_blank" rel="noopener noreferrer">site<sup><i class="fas fa-external-link-alt fa-sm ml-1"></i></sup></a>.'
                         ),
                     }}
                 />
