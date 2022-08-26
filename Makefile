@@ -140,14 +140,6 @@ test-web: venv
 
 # Translations
 
-.PHONY: init-langs
-init-langs: create-messages
-	for lang in $(LANGS); do \
-		$(VENV_BIN)/pybabel init \
-		-i reforis_nextcloud/translations/messages.pot \
-		-d reforis_nextcloud/translations/ -l $$lang \
-	; done
-
 .PHONY: create-messages
 create-messages:
 	$(VENV_BIN)/pybabel extract -F babel.cfg -o ./reforis_nextcloud/translations/messages.pot . --project=$(PROJECT) --version=$(VERSION) --copyright-holder=$(COPYRIGHT_HOLDER) --msgid-bugs-address=$(MSGID_BUGS_ADDRESS)
