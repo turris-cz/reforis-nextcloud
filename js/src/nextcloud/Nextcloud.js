@@ -27,6 +27,7 @@ Nextcloud.propTypes = {
 
 export default function Nextcloud({ ws }) {
     const [nextcloud, getNextcloud] = useAPIGet(API_URLs.nextcloud);
+
     useEffect(() => {
         getNextcloud();
     }, [getNextcloud]);
