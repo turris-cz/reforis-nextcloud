@@ -39,8 +39,12 @@ def get_status():
 def configure_nextcloud():
     validate_json(request.json)
 
-    response = current_app.backend.perform('nextcloud', 'configure_nextcloud', request.json)
+    response = current_app.backend.perform(
+        'nextcloud', 'configure_nextcloud', request.json
+    )
     if response.get('result') is not True:
-        raise APIError(_('Cannot configure Nextcloud'), HTTPStatus.INTERNAL_SERVER_ERROR)
+        raise APIError(
+            _('Cannot configure Nextcloud'), HTTPStatus.INTERNAL_SERVER_ERROR
+        )
 
     return jsonify(response), HTTPStatus.ACCEPTED

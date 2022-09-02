@@ -7,16 +7,16 @@ from http import HTTPStatus
 from reforis.test_utils import mock_backend_response
 
 
-NEXTCLOUD_URL = "/nextcloud/api/nextcloud"
+NEXTCLOUD_URL = '/nextcloud/api/nextcloud'
 
 
 @mock_backend_response(
     {
-        "nextcloud": {
-            "get_status": {
-                "nextcloud_configured": False,
-                "nextcloud_configuring": False,
-                "nextcloud_installed": True,
+        'nextcloud': {
+            'get_status': {
+                'nextcloud_configured': False,
+                'nextcloud_configuring': False,
+                'nextcloud_installed': True,
             }
         }
     }
@@ -24,23 +24,23 @@ NEXTCLOUD_URL = "/nextcloud/api/nextcloud"
 def test_get_settings(client):
     response = client.get(NEXTCLOUD_URL)
     assert response.status_code == HTTPStatus.OK
-    assert response.json["nextcloud_installed"] is True
-    assert response.json["nextcloud_configuring"] is False
-    assert response.json["nextcloud_configured"] is False
+    assert response.json['nextcloud_installed'] is True
+    assert response.json['nextcloud_configuring'] is False
+    assert response.json['nextcloud_configured'] is False
 
 
-@mock_backend_response({"nextcloud": {"configure_nextcloud": {"result": True}}})
+@mock_backend_response({'nextcloud': {'configure_nextcloud': {'result': True}}})
 def test_post_settings_invalid_json(client):
     response = client.post(NEXTCLOUD_URL, json=False)
     assert response.status_code == HTTPStatus.BAD_REQUEST
-    assert response.json == "Invalid JSON"
+    assert response.json == 'Invalid JSON'
 
 
-@mock_backend_response({"nextcloud": {"configure_nextcloud": {"result": True}}})
+@mock_backend_response({'nextcloud': {'configure_nextcloud': {'result': True}}})
 def test_post_settings(client):
     response = client.post(
         NEXTCLOUD_URL,
-        json={"credentials": {"login": "test", "password": "testpass"}},
+        json={'credentials': {'login': 'test', 'password': 'testpass'}},
     )
     assert response.status_code == HTTPStatus.ACCEPTED
 
@@ -48,7 +48,7 @@ def test_post_settings(client):
 @mock_backend_response({'nextcloud': {'configure_nextcloud': {'result': False}}})
 def test_post_settings_bad_foris_controller_response(client):
     response = client.post(
-        NEXTCLOUD_URL, json={"login": "test", "password": "testpass"}
+        NEXTCLOUD_URL, json={'login': 'test', 'password': 'testpass'}
     )
     assert response.status_code == HTTPStatus.INTERNAL_SERVER_ERROR
-    assert response.json == "Cannot configure Nextcloud"
+    assert response.json == 'Cannot configure Nextcloud'

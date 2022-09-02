@@ -3,4 +3,4 @@
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
 
-pytest_plugins = "reforis.test_utils.fixtures"
+pytest_plugins = 'reforis.test_utils.fixtures'
