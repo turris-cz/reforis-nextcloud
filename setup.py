@@ -1,4 +1,4 @@
-#  Copyright (C) 2019 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+#  Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -37,8 +37,9 @@ setuptools.setup(
     include_package_data=True,
 
     description='Nextcloud reForis plugin.',
-    author='CZ.NIC, z.s.p.o.',
-    author_email='bogdan.bodnar@nic.cz',
+    url='https://gitlab.nic.cz/turris/reforis/reforis-nextcloud',
+    author='CZ.NIC, z.s.p.o. (https://www.nic.cz/)',
+    author_email='software@turris.cz',
 
     install_requires=[
         'flask',
@@ -47,18 +48,18 @@ setuptools.setup(
     ],
     extras_require={
         'devel': [
-            'pytest==3.7.1',
-            'pylint==2.3.1',
-            'pylint-quotes==0.2.1',
-            'pycodestyle==2.5.0',
-            'reforis @ git+https://gitlab.labs.nic.cz/turris/reforis/reforis@master#egg=reforis',
+            'pytest',
+            'pylint',
+            'pylint-quotes',
+            'pycodestyle',
+            'reforis @ git+https://gitlab.nic.cz/turris/reforis/reforis#egg=reforis',
         ],
     },
     setup_requires=[
         'reforis_distutils',
     ],
     dependency_links=[
-        'git+https://gitlab.labs.nic.cz/turris/reforis/reforis-distutils.git#egg=reforis-distutils',
+        'git+https://gitlab.nic.cz/turris/reforis/reforis-distutils.git#egg=reforis-distutils',
     ],
     entry_points={
         'foris.plugins': f'{NAME} = {NAME}:nextcloud'
