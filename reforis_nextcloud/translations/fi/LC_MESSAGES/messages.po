@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2022-08-26 14:41+0200\n"
+"POT-Creation-Date: 2022-10-24 15:07+0200\n"
 "PO-Revision-Date: 2022-08-26 14:41+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fi\n"
@@ -19,53 +19,73 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: js/src/app.js:13 js/src/nextcloud/Nextcloud.js:19
+#: js/src/app.js:13 js/src/nextcloud/Nextcloud.js:37
 msgid "Nextcloud"
 msgstr ""
 
-#: js/src/nextcloud/Nextcloud.js:20
+#: js/src/nextcloud/ConfigurationForm.js:65
+msgid "Username"
+msgstr ""
+
+#: js/src/nextcloud/ConfigurationForm.js:73
+msgid "Password"
+msgstr ""
+
+#: js/src/nextcloud/ConfigurationForm.js:84
+msgid "Save"
+msgstr ""
+
+#: js/src/nextcloud/ConfigurationForm.js:93
+msgid "Username cannot be empty."
+msgstr ""
+
+#: js/src/nextcloud/ConfigurationForm.js:94
+msgid "Password cannot be empty."
+msgstr ""
+
+#: js/src/nextcloud/Nextcloud.js:39
 msgid ""
 "Nextcloud puts your data at your fingertips, under your control. Store "
 "your documents, calendar, contacts and photos on a server at home."
 msgstr ""
 
-#: js/src/nextcloud/Nextcloud.js:54
-msgid "Username cannot be empty."
+#: js/src/nextcloud/Nextcloud.js:91
+msgid "Configuring Nextcloud…"
 msgstr ""
 
-#: js/src/nextcloud/Nextcloud.js:57
-msgid "Password cannot be empty."
+#: js/src/nextcloud/Nextcloud.js:98
+msgid "Congratulations!🎉"
 msgstr ""
 
-#: js/src/nextcloud/NextcloudConfiguration.js:34
-msgid "Configuring Nextcloud..."
-msgstr ""
-
-#: js/src/nextcloud/NextcloudConfiguration.js:42
+#: js/src/nextcloud/Nextcloud.js:101
 msgid ""
-"Congratulations! You have configured your Nextcloud now you can visit the"
-" <a href=\"/nextcloud\" target=\"_blank\" rel=\"noopener "
+"You have configured your Nextcloud now you can visit the <a "
+"href=\"/nextcloud\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">site<sup><i class=\"fas fa-external-link-alt fa-sm "
 "ml-1\"></i></sup></a>."
 msgstr ""
 
-#: js/src/nextcloud/NextcloudConfiguration.js:52
-msgid "Username"
-msgstr ""
-
-#: js/src/nextcloud/NextcloudConfiguration.js:61
-msgid "Password"
-msgstr ""
-
-#: js/src/nextcloud/NextcloudConfiguration.js:77
+#: js/src/nextcloud/Nextcloud.js:116
 msgid "Nextcloud Configuration"
 msgstr ""
 
-#: js/src/nextcloud/NextcloudConfiguration.js:78
+#: js/src/nextcloud/Nextcloud.js:117
 msgid "Create an admininstrator account for Nextcloud."
 msgstr ""
 
-#: reforis_nextcloud/__init__.py:44
+#: reforis_nextcloud/__init__.py:47
 msgid "Cannot configure Nextcloud"
 msgstr ""
+
+#~ msgid "Configuring Nextcloud..."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Congratulations! You have configured your "
+#~ "Nextcloud now you can visit the <a"
+#~ " href=\"/nextcloud\" target=\"_blank\" rel=\"noopener"
+#~ " noreferrer\">site<sup><i class=\"fas fa-"
+#~ "external-link-alt fa-sm "
+#~ "ml-1\"></i></sup></a>."
+#~ msgstr ""
 
