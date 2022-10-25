@@ -146,7 +146,7 @@ create-messages:
 
 .PHONY: update-messages
 update-messages:
-	$(VENV_BIN)/pybabel update -i ./reforis_nextcloud/translations/messages.pot -d ./reforis/translations --update-header-comment
+	$(VENV_BIN)/pybabel update -i ./reforis_nextcloud/translations/messages.pot -d ./reforis_nextcloud/translations --update-header-comment
 
 .PHONY: compile-messages
 compile-messages:
