@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2022-10-24 15:07+0200\n"
-"PO-Revision-Date: 2022-10-01 20:15+0000\n"
+"PO-Revision-Date: 2022-10-29 17:03+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
+"reforis-nextcloud-plugin/sk/>\n"
 "Language: sk\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/turris"
-"/reforis-nextcloud-plugin/sk/>\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/app.js:13 js/src/nextcloud/Nextcloud.js:37
@@ -34,7 +35,7 @@ msgstr "Heslo"
 
 #: js/src/nextcloud/ConfigurationForm.js:84
 msgid "Save"
-msgstr ""
+msgstr "Uložiť"
 
 #: js/src/nextcloud/ConfigurationForm.js:93
 msgid "Username cannot be empty."
@@ -54,26 +55,23 @@ msgstr ""
 "doma."
 
 #: js/src/nextcloud/Nextcloud.js:91
-#, fuzzy
 msgid "Configuring Nextcloud…"
-msgstr "Nextcloud sa nastavuje..."
+msgstr "Nextcloud sa nastavuje…"
 
 #: js/src/nextcloud/Nextcloud.js:98
 msgid "Congratulations!🎉"
-msgstr ""
+msgstr "Blahoželáme!🎉"
 
 #: js/src/nextcloud/Nextcloud.js:101
-#, fuzzy
 msgid ""
 "You have configured your Nextcloud now you can visit the <a "
 "href=\"/nextcloud\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">site<sup><i class=\"fas fa-external-link-alt fa-sm "
 "ml-1\"></i></sup></a>."
 msgstr ""
-"Blahoželáme! Nakonfigurovali ste svoj Nextcloud a teraz môžete navštíviť "
-"<a href=\"/nextcloud\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">stránku<sup><i class=\"fas fa-external-link-alt fa-sm "
-"ml-1\"></i></sup></a>."
+"Blahoželáme! Nakonfigurovali ste svoj Nextcloud a teraz môžete navštíviť <a "
+"href=\"/nextcloud\" target=\"_blank\" rel=\"noopener noreferrer\""
+">stránku<sup><i class=\"fas fa-external-link-alt fa-sm ml-1\"></i></sup></a>."
 
 #: js/src/nextcloud/Nextcloud.js:116
 msgid "Nextcloud Configuration"
@@ -86,4 +84,3 @@ msgstr "Vytvorte účet správcu pre Nextcloud."
 #: reforis_nextcloud/__init__.py:47
 msgid "Cannot configure Nextcloud"
 msgstr "Nextcloud nie je možné nastaviť"
-
