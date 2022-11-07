@@ -9,53 +9,57 @@ msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2022-10-24 15:07+0200\n"
-"PO-Revision-Date: 2022-08-26 14:41+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2022-11-08 16:07+0000\n"
+"Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
+"reforis-nextcloud-plugin/cs/>\n"
 "Language: cs\n"
-"Language-Team: cs <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14.2\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/app.js:13 js/src/nextcloud/Nextcloud.js:37
 msgid "Nextcloud"
-msgstr ""
+msgstr "Nextcloud"
 
 #: js/src/nextcloud/ConfigurationForm.js:65
 msgid "Username"
-msgstr ""
+msgstr "Uživatelské jméno"
 
 #: js/src/nextcloud/ConfigurationForm.js:73
 msgid "Password"
-msgstr ""
+msgstr "Heslo"
 
 #: js/src/nextcloud/ConfigurationForm.js:84
 msgid "Save"
-msgstr ""
+msgstr "Uložit"
 
 #: js/src/nextcloud/ConfigurationForm.js:93
 msgid "Username cannot be empty."
-msgstr ""
+msgstr "Uživatelské jméno nesmí být prázdné."
 
 #: js/src/nextcloud/ConfigurationForm.js:94
 msgid "Password cannot be empty."
-msgstr ""
+msgstr "Heslo nesmí být prázdné."
 
 #: js/src/nextcloud/Nextcloud.js:39
 msgid ""
 "Nextcloud puts your data at your fingertips, under your control. Store "
 "your documents, calendar, contacts and photos on a server at home."
 msgstr ""
+"Díky Nextcloudu máte svá data na dosah ruky a pod kontrolou. Ukládejte své "
+"dokumenty, kalendář, kontakty a fotografie na domácím serveru."
 
 #: js/src/nextcloud/Nextcloud.js:91
 msgid "Configuring Nextcloud…"
-msgstr ""
+msgstr "Konfigurace služby Nextcloud…"
 
 #: js/src/nextcloud/Nextcloud.js:98
 msgid "Congratulations!🎉"
-msgstr ""
+msgstr "Gratulujeme!🎉"
 
 #: js/src/nextcloud/Nextcloud.js:101
 msgid ""
@@ -64,18 +68,22 @@ msgid ""
 "noreferrer\">site<sup><i class=\"fas fa-external-link-alt fa-sm "
 "ml-1\"></i></sup></a>."
 msgstr ""
+"Nyní jste nakonfigurovali svůj Nextcloud a můžete navštívit <a href=\"/"
+"nextcloud\" target=\"_blank\" rel=\"noopener noreferrer\">jeho webové "
+"rozhraní<sup><i class=\"fas fa-external-link-alt fa-sm ml-1\"></i></sup></a> "
+"."
 
 #: js/src/nextcloud/Nextcloud.js:116
 msgid "Nextcloud Configuration"
-msgstr ""
+msgstr "Konfigurace služby Nextcloud"
 
 #: js/src/nextcloud/Nextcloud.js:117
 msgid "Create an admininstrator account for Nextcloud."
-msgstr ""
+msgstr "Vytvořit účet správce pro Nextcloud."
 
 #: reforis_nextcloud/__init__.py:47
 msgid "Cannot configure Nextcloud"
-msgstr ""
+msgstr "Nelze nakonfigurovat Nextcloud"
 
 #~ msgid "Configuring Nextcloud..."
 #~ msgstr ""
@@ -88,4 +96,3 @@ msgstr ""
 #~ "external-link-alt fa-sm "
 #~ "ml-1\"></i></sup></a>."
 #~ msgstr ""
-
