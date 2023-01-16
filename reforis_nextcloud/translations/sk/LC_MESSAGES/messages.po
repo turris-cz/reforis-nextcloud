@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2022-10-24 15:07+0200\n"
-"PO-Revision-Date: 2022-10-29 17:03+0000\n"
+"PO-Revision-Date: 2023-01-17 23:51+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
 "reforis-nextcloud-plugin/sk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/app.js:13 js/src/nextcloud/Nextcloud.js:37
@@ -43,7 +43,7 @@ msgstr "Užívateľské meno nemôže byť prázdne."
 
 #: js/src/nextcloud/ConfigurationForm.js:94
 msgid "Password cannot be empty."
-msgstr "Heslo nemôže byť prázdne."
+msgstr "Heslo nesmie byť prázdne."
 
 #: js/src/nextcloud/Nextcloud.js:39
 msgid ""
