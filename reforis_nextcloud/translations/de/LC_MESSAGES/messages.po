@@ -9,24 +9,25 @@ msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2022-10-24 15:07+0200\n"
-"PO-Revision-Date: 2022-09-30 09:18+0000\n"
-"Last-Translator: Marcus Wellendorf <wellendorf@posteo.de>\n"
+"PO-Revision-Date: 2023-04-23 22:50+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/turris/"
+"reforis-nextcloud-plugin/de/>\n"
 "Language: de\n"
-"Language-Team: German <https://hosted.weblate.org/projects/turris"
-"/reforis-nextcloud-plugin/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/app.js:13 js/src/nextcloud/Nextcloud.js:37
 msgid "Nextcloud"
-msgstr ""
+msgstr "Nextcloud"
 
 #: js/src/nextcloud/ConfigurationForm.js:65
 msgid "Username"
-msgstr ""
+msgstr "Benutzername"
 
 #: js/src/nextcloud/ConfigurationForm.js:73
 msgid "Password"
@@ -34,15 +35,15 @@ msgstr "Passwort"
 
 #: js/src/nextcloud/ConfigurationForm.js:84
 msgid "Save"
-msgstr ""
+msgstr "Speichern"
 
 #: js/src/nextcloud/ConfigurationForm.js:93
 msgid "Username cannot be empty."
-msgstr ""
+msgstr "Benutzername darf nicht leer sein."
 
 #: js/src/nextcloud/ConfigurationForm.js:94
 msgid "Password cannot be empty."
-msgstr ""
+msgstr "Passwort darf nicht leer sein."
 
 #: js/src/nextcloud/Nextcloud.js:39
 msgid ""
@@ -52,11 +53,11 @@ msgstr ""
 
 #: js/src/nextcloud/Nextcloud.js:91
 msgid "Configuring Nextcloud…"
-msgstr ""
+msgstr "Nextcloud wird konfiguriert…"
 
 #: js/src/nextcloud/Nextcloud.js:98
 msgid "Congratulations!🎉"
-msgstr ""
+msgstr "Glückwunsch!🎉"
 
 #: js/src/nextcloud/Nextcloud.js:101
 msgid ""
@@ -68,15 +69,15 @@ msgstr ""
 
 #: js/src/nextcloud/Nextcloud.js:116
 msgid "Nextcloud Configuration"
-msgstr ""
+msgstr "Nextcloud-Konfiguration"
 
 #: js/src/nextcloud/Nextcloud.js:117
 msgid "Create an admininstrator account for Nextcloud."
-msgstr ""
+msgstr "Erstellen Sie ein Administratorkonto für Nextcloud."
 
 #: reforis_nextcloud/__init__.py:47
 msgid "Cannot configure Nextcloud"
-msgstr ""
+msgstr "Kann Nextcloud nicht konfigurieren"
 
 #~ msgid "Configuring Nextcloud..."
 #~ msgstr ""
@@ -89,4 +90,3 @@ msgstr ""
 #~ "external-link-alt fa-sm "
 #~ "ml-1\"></i></sup></a>."
 #~ msgstr ""
-
