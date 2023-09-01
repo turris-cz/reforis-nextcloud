@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2022-10-24 15:07+0200\n"
-"PO-Revision-Date: 2022-10-19 16:00+0000\n"
-"Last-Translator: Kristoffer Grundström "
-"<swedishsailfishosuser@tutanota.com>\n"
+"PO-Revision-Date: 2023-09-02 10:52+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/turris/"
+"reforis-nextcloud-plugin/sv/>\n"
 "Language: sv\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/turris"
-"/reforis-nextcloud-plugin/sv/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/app.js:13 js/src/nextcloud/Nextcloud.js:37
@@ -35,7 +35,7 @@ msgstr "Lösenord"
 
 #: js/src/nextcloud/ConfigurationForm.js:84
 msgid "Save"
-msgstr ""
+msgstr "Spara"
 
 #: js/src/nextcloud/ConfigurationForm.js:93
 msgid "Username cannot be empty."
@@ -54,26 +54,23 @@ msgstr ""
 "dokument, kalender, kontakter och foton på en server hemma."
 
 #: js/src/nextcloud/Nextcloud.js:91
-#, fuzzy
 msgid "Configuring Nextcloud…"
-msgstr "Ställer in Nextcloud..."
+msgstr "Ställer in Nextcloud…"
 
 #: js/src/nextcloud/Nextcloud.js:98
 msgid "Congratulations!🎉"
-msgstr ""
+msgstr "Gratulerar!🎉"
 
 #: js/src/nextcloud/Nextcloud.js:101
-#, fuzzy
 msgid ""
 "You have configured your Nextcloud now you can visit the <a "
 "href=\"/nextcloud\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">site<sup><i class=\"fas fa-external-link-alt fa-sm "
 "ml-1\"></i></sup></a>."
 msgstr ""
-"Grattis! Du har ställt in ditt Nextcloud så nu kan du besöka <a "
-"href=\"/nextcloud\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">hemsidan<sup><i class=\"fas fa-external-link-alt fa-sm "
-"ml-1\">."
+"Du har ställt in ditt Nextcloud så nu kan du besöka <a href=\"/nextcloud\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">hemsidan<sup><i class=\"fas fa-"
+"external-link-alt fa-sm ml-1\"></i></sup></a>."
 
 #: js/src/nextcloud/Nextcloud.js:116
 msgid "Nextcloud Configuration"
@@ -86,4 +83,3 @@ msgstr "Skapa ett administratör-konto för Nextcloud."
 #: reforis_nextcloud/__init__.py:47
 msgid "Cannot configure Nextcloud"
 msgstr "Kan inte ställa in Nextcloud"
-
