@@ -9,27 +9,29 @@ msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2022-10-24 15:07+0200\n"
-"PO-Revision-Date: 2022-08-26 14:41+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-01-08 08:50+0000\n"
+"Last-Translator: h <tachyglossues@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/turris/"
+"reforis-nextcloud-plugin/fr/>\n"
 "Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/app.js:13 js/src/nextcloud/Nextcloud.js:37
 msgid "Nextcloud"
-msgstr ""
+msgstr "Nextcloud"
 
 #: js/src/nextcloud/ConfigurationForm.js:65
 msgid "Username"
-msgstr ""
+msgstr "Nom d’utilisateur"
 
 #: js/src/nextcloud/ConfigurationForm.js:73
 msgid "Password"
-msgstr ""
+msgstr "Mot de passe"
 
 #: js/src/nextcloud/ConfigurationForm.js:84
 msgid "Save"
@@ -37,11 +39,11 @@ msgstr ""
 
 #: js/src/nextcloud/ConfigurationForm.js:93
 msgid "Username cannot be empty."
-msgstr ""
+msgstr "Le nom d'utilisateur ne peut pas être vide."
 
 #: js/src/nextcloud/ConfigurationForm.js:94
 msgid "Password cannot be empty."
-msgstr ""
+msgstr "Le mot de passe ne peut pas être vide."
 
 #: js/src/nextcloud/Nextcloud.js:39
 msgid ""
@@ -88,4 +90,3 @@ msgstr ""
 #~ "external-link-alt fa-sm "
 #~ "ml-1\"></i></sup></a>."
 #~ msgstr ""
-

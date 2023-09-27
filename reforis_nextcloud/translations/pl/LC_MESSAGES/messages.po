@@ -9,54 +9,59 @@ msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2022-10-24 15:07+0200\n"
-"PO-Revision-Date: 2022-08-26 14:41+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-04-10 12:50+0000\n"
+"Last-Translator: Arusekk <arek_koz@o2.pl>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/turris/"
+"reforis-nextcloud-plugin/pl/>\n"
 "Language: pl\n"
-"Language-Team: pl <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
-"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.17-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/app.js:13 js/src/nextcloud/Nextcloud.js:37
 msgid "Nextcloud"
-msgstr ""
+msgstr "Nextcloud"
 
 #: js/src/nextcloud/ConfigurationForm.js:65
 msgid "Username"
-msgstr ""
+msgstr "Nazwa użytkownika"
 
 #: js/src/nextcloud/ConfigurationForm.js:73
 msgid "Password"
-msgstr ""
+msgstr "Hasło"
 
 #: js/src/nextcloud/ConfigurationForm.js:84
 msgid "Save"
-msgstr ""
+msgstr "Zapisz"
 
 #: js/src/nextcloud/ConfigurationForm.js:93
 msgid "Username cannot be empty."
-msgstr ""
+msgstr "Nazwa użytkownika nie może być pusta."
 
 #: js/src/nextcloud/ConfigurationForm.js:94
 msgid "Password cannot be empty."
-msgstr ""
+msgstr "Hasło nie może być puste."
 
 #: js/src/nextcloud/Nextcloud.js:39
 msgid ""
 "Nextcloud puts your data at your fingertips, under your control. Store "
 "your documents, calendar, contacts and photos on a server at home."
 msgstr ""
+"Dzięki Nextcloudowi Twoje dane są na wyciągnięcie ręki, a jednocześnie pod "
+"kontrolą. Przechowuj swoje dokumenty, kalendarz, kontakty i zdjęcia na "
+"domowym serwerze."
 
 #: js/src/nextcloud/Nextcloud.js:91
 msgid "Configuring Nextcloud…"
-msgstr ""
+msgstr "Konfigurowanie usługi Nextcloud…"
 
 #: js/src/nextcloud/Nextcloud.js:98
 msgid "Congratulations!🎉"
-msgstr ""
+msgstr "Gratulacje!🎉"
 
 #: js/src/nextcloud/Nextcloud.js:101
 msgid ""
@@ -65,18 +70,21 @@ msgid ""
 "noreferrer\">site<sup><i class=\"fas fa-external-link-alt fa-sm "
 "ml-1\"></i></sup></a>."
 msgstr ""
+"Skonfigurowano Nextcloud, teraz można odwiedzić jego <a href=\"/nextcloud\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">stronę<sup><i class=\"fas fa-"
+"external-link-alt fa-sm ml-1\"></i></sup></a>."
 
 #: js/src/nextcloud/Nextcloud.js:116
 msgid "Nextcloud Configuration"
-msgstr ""
+msgstr "Konfiguracja usługi Nextcloud"
 
 #: js/src/nextcloud/Nextcloud.js:117
 msgid "Create an admininstrator account for Nextcloud."
-msgstr ""
+msgstr "Utwórz konto administratora dla Nextcloud."
 
 #: reforis_nextcloud/__init__.py:47
 msgid "Cannot configure Nextcloud"
-msgstr ""
+msgstr "Nie można skonfigurować Nextcloud"
 
 #~ msgid "Configuring Nextcloud..."
 #~ msgstr ""
@@ -89,4 +97,3 @@ msgstr ""
 #~ "external-link-alt fa-sm "
 #~ "ml-1\"></i></sup></a>."
 #~ msgstr ""
-
