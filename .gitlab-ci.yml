@@ -1,4 +1,4 @@
-image: python:3.10-slim
+image: registry.nic.cz/turris/reforis/reforis/reforis-image
 
 stages:
   - test
