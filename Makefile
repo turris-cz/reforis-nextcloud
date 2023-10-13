@@ -1,4 +1,4 @@
-#  Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+#  Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -73,6 +73,8 @@ $(VENV_NAME)/bin/activate: setup.py
 
 .PHONY: install
 install:
+	opkg update 
+	opkg install foris-controller-nextcloud-module
 	$(PYTHON) -m pip install -e .
 	ln -sf /tmp/reforis-nextcloud/reforis_static/reforis_nextcloud /tmp/reforis/reforis_static/
 	/etc/init.d/lighttpd restart
