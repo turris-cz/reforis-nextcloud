@@ -109,4 +109,6 @@ venv.bak/
 ## mypy
 .mypy_cache/
 
-reforis_static/reforis_nextcloud/js/app.min.js
+/reforis_static/reforis_nextcloud/js/*.min.js
+/reforis_static/reforis_nextcloud/js/*.LICENSE
+/reforis_static/reforis_nextcloud/js/*.txt

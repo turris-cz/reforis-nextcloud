@@ -7,7 +7,6 @@
 
 import React, { useEffect, useState } from "react";
 
-import PropTypes from "prop-types";
 import {
     useAlert,
     SpinnerElement,
@@ -17,6 +16,7 @@ import {
     withErrorMessage,
     withSpinnerOnSending,
 } from "foris";
+import PropTypes from "prop-types";
 
 import ConfigurationForm from "./ConfigurationForm";
 import API_URLs from "../API";
