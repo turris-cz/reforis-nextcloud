@@ -36,7 +36,7 @@ setuptools.setup(
     packages=setuptools.find_packages(exclude=['tests']),
     include_package_data=True,
 
-    description='Nextcloud reForis plugin.',
+    description='reForis NextCloud plugin allows you to manage NextCloud instance on your router.',
     url='https://gitlab.nic.cz/turris/reforis/reforis-nextcloud',
     author='CZ.NIC, z.s.p.o. (https://www.nic.cz/)',
     author_email='software@turris.cz',

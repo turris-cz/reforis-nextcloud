@@ -7,7 +7,7 @@
     },
     "license": "GPL-3.0",
     "version": "0.1.0",
-    "description": "reForis NextCloud plugin.",
+    "description": "reForis NextCloud plugin allows you to manage NextCloud instance on your router.",
     "main": "./src/app.js",
     "eslintConfig": {
         "extends": "eslint-config-reforis"
@@ -53,8 +53,8 @@
         "webpack-cli": "^5.1.4"
     },
     "scripts": {
-        "watch": "webpack --watch --mode=development --env lighttpd",
-        "build": "webpack --mode=production --env lighttpd",
+        "watch": "webpack --watch --mode=development",
+        "build": "webpack --mode=production",
         "lint": "eslint src",
         "lint:fix": "eslint --fix src",
         "test": "jest",
