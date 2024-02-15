@@ -1,4 +1,4 @@
-#  Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+#  Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -20,8 +20,6 @@ LANGS = cs da de el en fi fo fr hr hu it ja ko lt nb_NO nl pl ro ru sk sv
 
 .PHONY: all
 all:
-	@echo "make prepare-env"
-	@echo "    Install tools for development environment: node, npm, Python, virtualenv"
 	@echo "make prepare-dev"
 	@echo "    Create python virtual environment and install dependencies."
 	@echo "make install"
@@ -46,17 +44,14 @@ all:
 
 # Preparation
 
-.PHONY: prepare-env
-prepare-env:
-	which npm || curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+.PHONY: prepare-dev
+prepare-dev:
+	which npm || curl -sL https://deb.nodesource.com/setup_21.x | sudo -E bash -
 	which npm || sudo apt-get install -y nodejs
+	cd $(JS_DIR); npm install
 
 	which $(PYTHON) || sudo apt-get install -y $(PYTHON) $(PYTHON)-pip
 	which virtualenv || sudo $(PYTHON) -m pip install virtualenv
-
-.PHONY: prepare-dev
-prepare-dev:
-	cd $(JS_DIR); npm install
 	make venv
 
 .PHONY: venv
