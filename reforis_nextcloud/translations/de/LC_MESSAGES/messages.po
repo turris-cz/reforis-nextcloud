@@ -1,27 +1,26 @@
 # German translations for reForis NextCloud Plugin.
-# Copyright (C) 2022 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis NextCloud
 # Plugin project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2022-10-24 15:07+0200\n"
+"POT-Creation-Date: 2024-03-12 14:33+0100\n"
 "PO-Revision-Date: 2023-09-08 12:52+0000\n"
 "Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/turris/"
-"reforis-nextcloud-plugin/de/>\n"
 "Language: de\n"
+"Language-Team: German <https://hosted.weblate.org/projects/turris"
+"/reforis-nextcloud-plugin/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.14.0\n"
 
-#: js/src/app.js:13 js/src/nextcloud/Nextcloud.js:37
+#: js/src/app.js:14 js/src/nextcloud/Nextcloud.js:37
 msgid "Nextcloud"
 msgstr "Nextcloud"
 
@@ -51,8 +50,8 @@ msgid ""
 "your documents, calendar, contacts and photos on a server at home."
 msgstr ""
 "Mit Nextcloud sind Ihre Daten immer zur Hand und unter Ihrer Kontrolle. "
-"Speichern Sie Ihre Dokumente, Termine, Kontakte und Fotos auf einem Server "
-"zu Hause."
+"Speichern Sie Ihre Dokumente, Termine, Kontakte und Fotos auf einem "
+"Server zu Hause."
 
 #: js/src/nextcloud/Nextcloud.js:91
 msgid "Configuring Nextcloud…"
@@ -69,9 +68,10 @@ msgid ""
 "noreferrer\">site<sup><i class=\"fas fa-external-link-alt fa-sm "
 "ml-1\"></i></sup></a>."
 msgstr ""
-"Sie haben Ihre Nextcloud fertig eingerichtet, jetzt können Sie sie <a href=\""
-"/nextcloud\" target=\"_blank\" rel=\"noopener noreferrer\">besuchen<sup><i "
-"class=\"fas fa-external-link-alt fa-sm ml-1\"></i></sup></a>."
+"Sie haben Ihre Nextcloud fertig eingerichtet, jetzt können Sie sie <a "
+"href=\"/nextcloud\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">besuchen<sup><i class=\"fas fa-external-link-alt fa-sm "
+"ml-1\"></i></sup></a>."
 
 #: js/src/nextcloud/Nextcloud.js:116
 msgid "Nextcloud Configuration"
@@ -81,7 +81,7 @@ msgstr "Nextcloud-Konfiguration"
 msgid "Create an admininstrator account for Nextcloud."
 msgstr "Erstellen Sie ein Administratorkonto für Nextcloud."
 
-#: reforis_nextcloud/__init__.py:47
+#: reforis_nextcloud/__init__.py:49
 msgid "Cannot configure Nextcloud"
 msgstr "Nextcloud kann nicht konfiguriert werden"
 
@@ -96,3 +96,4 @@ msgstr "Nextcloud kann nicht konfiguriert werden"
 #~ "external-link-alt fa-sm "
 #~ "ml-1\"></i></sup></a>."
 #~ msgstr ""
+

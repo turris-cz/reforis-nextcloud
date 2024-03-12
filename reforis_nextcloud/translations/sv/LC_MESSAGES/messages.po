@@ -1,27 +1,27 @@
 # Swedish translations for reForis NextCloud Plugin.
-# Copyright (C) 2022 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis NextCloud
 # Plugin project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2022-10-24 15:07+0200\n"
+"POT-Creation-Date: 2024-03-12 14:33+0100\n"
 "PO-Revision-Date: 2023-09-02 10:52+0000\n"
-"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/turris/"
-"reforis-nextcloud-plugin/sv/>\n"
+"Last-Translator: Kristoffer Grundström "
+"<swedishsailfishosuser@tutanota.com>\n"
 "Language: sv\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/turris"
+"/reforis-nextcloud-plugin/sv/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.14.0\n"
 
-#: js/src/app.js:13 js/src/nextcloud/Nextcloud.js:37
+#: js/src/app.js:14 js/src/nextcloud/Nextcloud.js:37
 msgid "Nextcloud"
 msgstr "Nextcloud"
 
@@ -68,9 +68,10 @@ msgid ""
 "noreferrer\">site<sup><i class=\"fas fa-external-link-alt fa-sm "
 "ml-1\"></i></sup></a>."
 msgstr ""
-"Du har ställt in ditt Nextcloud så nu kan du besöka <a href=\"/nextcloud\" "
-"target=\"_blank\" rel=\"noopener noreferrer\">hemsidan<sup><i class=\"fas fa-"
-"external-link-alt fa-sm ml-1\"></i></sup></a>."
+"Du har ställt in ditt Nextcloud så nu kan du besöka <a "
+"href=\"/nextcloud\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">hemsidan<sup><i class=\"fas fa-external-link-alt fa-sm "
+"ml-1\"></i></sup></a>."
 
 #: js/src/nextcloud/Nextcloud.js:116
 msgid "Nextcloud Configuration"
@@ -80,6 +81,7 @@ msgstr "Inställning av Nextcloud"
 msgid "Create an admininstrator account for Nextcloud."
 msgstr "Skapa ett administratör-konto för Nextcloud."
 
-#: reforis_nextcloud/__init__.py:47
+#: reforis_nextcloud/__init__.py:49
 msgid "Cannot configure Nextcloud"
 msgstr "Kan inte ställa in Nextcloud"
+
