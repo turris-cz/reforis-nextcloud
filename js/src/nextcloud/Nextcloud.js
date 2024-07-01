@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -115,7 +115,7 @@ function Configuration({ ws, nextcloud, getNextcloud }) {
     return (
         <div className={formFieldsSize}>
             <h2>{_("Nextcloud Configuration")}</h2>
-            <p>{_("Create an admininstrator account for Nextcloud.")}</p>
+            <p>{_("Create an administrator account for Nextcloud.")}</p>
             {componentContent}
         </div>
     );
