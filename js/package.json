@@ -6,7 +6,7 @@
         "url": "https://gitlab.nic.cz/turris/reforis/reforis-nextcloud.git"
     },
     "license": "GPL-3.0",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "reForis NextCloud plugin allows you to manage NextCloud instance on your router.",
     "main": "./src/app.js",
     "eslintConfig": {
