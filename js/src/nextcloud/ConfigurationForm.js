@@ -79,7 +79,7 @@ export default function ConfigurationForm({ setIsConfiguring }) {
                     password: { $set: value },
                 }))}
             />
-            <div className="text-right">
+            <div className="text-end">
                 <Button type="submit" forisFormSize disabled={buttonIsDisabled}>
                     {_("Save")}
                 </Button>

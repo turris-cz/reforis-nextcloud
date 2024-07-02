@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2024-03-12 14:33+0100\n"
+"POT-Creation-Date: 2024-07-01 16:14+0300\n"
 "PO-Revision-Date: 2022-08-26 14:41+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.15.0\n"
 
 #: js/src/app.js:14 js/src/nextcloud/Nextcloud.js:37
 msgid "Nextcloud"
@@ -62,7 +62,7 @@ msgid ""
 "You have configured your Nextcloud now you can visit the <a "
 "href=\"/nextcloud\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">site<sup><i class=\"fas fa-external-link-alt fa-sm "
-"ml-1\"></i></sup></a>."
+"ms-1\"></i></sup></a>."
 msgstr ""
 
 #: js/src/nextcloud/Nextcloud.js:116
@@ -70,10 +70,10 @@ msgid "Nextcloud Configuration"
 msgstr ""
 
 #: js/src/nextcloud/Nextcloud.js:117
-msgid "Create an admininstrator account for Nextcloud."
+msgid "Create an administrator account for Nextcloud."
 msgstr ""
 
-#: reforis_nextcloud/__init__.py:49
+#: reforis_nextcloud/__init__.py:46
 msgid "Cannot configure Nextcloud"
 msgstr ""
 
@@ -87,5 +87,16 @@ msgstr ""
 #~ " noreferrer\">site<sup><i class=\"fas fa-"
 #~ "external-link-alt fa-sm "
 #~ "ml-1\"></i></sup></a>."
+#~ msgstr ""
+
+#~ msgid "Create an admininstrator account for Nextcloud."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You have configured your Nextcloud now"
+#~ " you can visit the <a "
+#~ "href=\"/nextcloud\" target=\"_blank\" rel=\"noopener "
+#~ "noreferrer\">site<sup><i class=\"fas fa-external-"
+#~ "link-alt fa-sm ml-1\"></i></sup></a>."
 #~ msgstr ""
 

@@ -8,6 +8,16 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.1.0] - 2024-07-02
+
+### Changed
+
+-   Updated .gitignore to exclude .ruff_cache/ folder
+-   Updated dependencies in package.json
+-   Updated Foris JS library to v6.0.2
+-   Fixed misspelled word in NextCloud intro description
+-   NPM audit fix
+
 ## [1.0.1] - 2024-05-20
 
 ### Changed
@@ -48,7 +58,9 @@ and this project adheres to
 
 -   Add initial Nextcloud plugin
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-nextcloud/-/compare/v1.0.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-nextcloud/-/compare/v1.1.0...master
+[1.1.0]: https://gitlab.nic.cz/turris/reforis/reforis-nextcloud/-/compare/v1.0.1...v1.1.0
+[1.0.1]: https://gitlab.nic.cz/turris/reforis/reforis-nextcloud/-/compare/v1.0.0...v1.0.1
 [1.0.0]: https://gitlab.nic.cz/turris/reforis/reforis-nextcloud/-/compare/v1.0.0...v1.1.0
 [0.1.0]: https://gitlab.nic.cz/turris/reforis/reforis-nextcloud/-/compare/v0.0.1...v0.1.0
 [0.0.1]: https://gitlab.nic.cz/turris/reforis/reforis-nextcloud/-/tags/v0.0.1

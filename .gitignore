@@ -112,3 +112,6 @@ venv.bak/
 reforis_static/reforis_nextcloud/js/*.min.js
 reforis_static/reforis_nextcloud/js/*.LICENSE
 reforis_static/reforis_nextcloud/js/*.txt
+
+## Ruff
+.ruff_cache/

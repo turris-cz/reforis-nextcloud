@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -86,9 +86,9 @@ function Configuration({ ws, nextcloud, getNextcloud }) {
     let componentContent;
     if (nextcloud_configuring || isConfiguring) {
         componentContent = (
-            <div className="d-flex flex-row justify-content-center text-muted">
+            <div className="d-flex flex-row justify-content-center align-items-center text-muted">
                 <SpinnerElement small>
-                    <p className="ml-1">{_("Configuring Nextcloud…")}</p>
+                    <p className="ms-1 mb-0">{_("Configuring Nextcloud…")}</p>
                 </SpinnerElement>
             </div>
         );
@@ -97,9 +97,10 @@ function Configuration({ ws, nextcloud, getNextcloud }) {
             <div className="text-muted text-center">
                 <p className="mb-2">{_("Congratulations!🎉")}</p>
                 <p
+                    className="mb-0"
                     dangerouslySetInnerHTML={{
                         __html: _(
-                            'You have configured your Nextcloud now you can visit the <a href="/nextcloud" target="_blank" rel="noopener noreferrer">site<sup><i class="fas fa-external-link-alt fa-sm ml-1"></i></sup></a>.'
+                            'You have configured your Nextcloud now you can visit the <a href="/nextcloud" target="_blank" rel="noopener noreferrer">site<sup><i class="fas fa-external-link-alt fa-sm ms-1"></i></sup></a>.'
                         ),
                     }}
                 />
@@ -114,7 +115,7 @@ function Configuration({ ws, nextcloud, getNextcloud }) {
     return (
         <div className={formFieldsSize}>
             <h2>{_("Nextcloud Configuration")}</h2>
-            <p>{_("Create an admininstrator account for Nextcloud.")}</p>
+            <p>{_("Create an administrator account for Nextcloud.")}</p>
             {componentContent}
         </div>
     );
