@@ -19,6 +19,7 @@ import {
     withSpinnerOnSending,
 } from "foris";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 import ConfigurationForm from "./ConfigurationForm";
 import API_URLs from "../API";
@@ -42,6 +43,33 @@ export default function Nextcloud({ ws }) {
                     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server at home."
                 )}
             </p>
+            <p>
+                {_(
+                    "Before installing and configuring Nextcloud, it's important to first set up external storage, as using the router's internal flash memory can cause it to wear out quickly and affect performance. For more information, see the "
+                )}
+                <a
+                    href="https://docs.turris.cz/geek/nextcloud/nextcloud/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    {_("documentation")}
+                    <sup>
+                        <FontAwesomeIcon
+                            icon={faExternalLinkAlt}
+                            className="ms-1 fa-xs"
+                        />
+                    </sup>
+                </a>
+                .&nbsp;
+                {_(
+                    "For the best results, it's recommended to use an external drive or SSD. You can easily configure external storage by using the "
+                )}
+                <Link to="/storage" title="Go to Storage plugin">
+                    {_("Storage plugin")}
+                </Link>
+                .
+            </p>
+
             <ConfigurationWithErrorAndSpinner
                 ws={ws}
                 apiState={nextcloud.state}
@@ -110,7 +138,7 @@ function Configuration({ ws, nextcloud, getNextcloud }) {
                         <sup>
                             <FontAwesomeIcon
                                 icon={faExternalLinkAlt}
-                                className="ms-1 fa-sm"
+                                className="ms-1 fa-xs"
                             />
                         </sup>
                     </a>
