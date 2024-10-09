@@ -8,6 +8,30 @@ exports[`<Nextcloud /> should render Nextcloud 1`] = `
   <p>
     Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server at home.
   </p>
+  <p>
+    Before installing and configuring Nextcloud, it's important to first set up external storage, as using the router's internal flash memory can cause it to wear out quickly and affect performance. For more information, see the 
+    <a
+      href="https://docs.turris.cz/geek/nextcloud/nextcloud/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      documentation
+      <sup>
+        <i
+          class="fa"
+        />
+      </sup>
+    </a>
+    . 
+    For the best results, it's recommended to use an external drive or SSD. You can easily configure external storage by using the 
+    <a
+      href="/storage"
+      title="Go to Storage plugin"
+    >
+      Storage plugin
+    </a>
+    .
+  </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
@@ -31,16 +55,11 @@ exports[`<Nextcloud /> should render Nextcloud 1`] = `
           class="input-group"
         >
           <input
-            class="form-control is-invalid"
+            class="form-control"
             id="1"
             type="text"
             value=""
           />
-        </div>
-        <div
-          class="invalid-feedback"
-        >
-          Username cannot be empty.
         </div>
       </div>
       <div
@@ -57,7 +76,7 @@ exports[`<Nextcloud /> should render Nextcloud 1`] = `
         >
           <input
             autocomplete="new-password"
-            class="form-control is-invalid"
+            class="form-control"
             id="2"
             type="password"
             value=""
@@ -67,14 +86,9 @@ exports[`<Nextcloud /> should render Nextcloud 1`] = `
             type="button"
           >
             <i
-              class="fa fa-eye"
+              class="fa"
             />
           </button>
-        </div>
-        <div
-          class="invalid-feedback"
-        >
-          Password cannot be empty.
         </div>
       </div>
       <div
@@ -103,6 +117,30 @@ exports[`<Nextcloud /> should render Nextcloud configured 1`] = `
   <p>
     Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server at home.
   </p>
+  <p>
+    Before installing and configuring Nextcloud, it's important to first set up external storage, as using the router's internal flash memory can cause it to wear out quickly and affect performance. For more information, see the 
+    <a
+      href="https://docs.turris.cz/geek/nextcloud/nextcloud/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      documentation
+      <sup>
+        <i
+          class="fa"
+        />
+      </sup>
+    </a>
+    . 
+    For the best results, it's recommended to use an external drive or SSD. You can easily configure external storage by using the 
+    <a
+      href="/storage"
+      title="Go to Storage plugin"
+    >
+      Storage plugin
+    </a>
+    .
+  </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
@@ -123,7 +161,7 @@ exports[`<Nextcloud /> should render Nextcloud configured 1`] = `
       <p
         class="mb-0"
       >
-        You have configured your Nextcloud now you can visit the 
+        You have configured your Nextcloud and now you can visit the 
         <a
           href="/nextcloud"
           rel="noopener noreferrer"
@@ -132,11 +170,10 @@ exports[`<Nextcloud /> should render Nextcloud configured 1`] = `
           site
           <sup>
             <i
-              class="fas fa-external-link-alt fa-sm ms-1"
+              class="fa"
             />
           </sup>
         </a>
-        .
       </p>
     </div>
   </div>
@@ -151,6 +188,30 @@ exports[`<Nextcloud /> should render Nextcloud configuring 1`] = `
   <p>
     Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server at home.
   </p>
+  <p>
+    Before installing and configuring Nextcloud, it's important to first set up external storage, as using the router's internal flash memory can cause it to wear out quickly and affect performance. For more information, see the 
+    <a
+      href="https://docs.turris.cz/geek/nextcloud/nextcloud/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      documentation
+      <sup>
+        <i
+          class="fa"
+        />
+      </sup>
+    </a>
+    . 
+    For the best results, it's recommended to use an external drive or SSD. You can easily configure external storage by using the 
+    <a
+      href="/storage"
+      title="Go to Storage plugin"
+    >
+      Storage plugin
+    </a>
+    .
+  </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
@@ -161,25 +222,21 @@ exports[`<Nextcloud /> should render Nextcloud configuring 1`] = `
       Create an administrator account for Nextcloud.
     </p>
     <div
-      class="d-flex flex-row justify-content-center align-items-center text-muted"
+      class="d-flex justify-content-center align-items-center text-muted"
     >
       <div
-        class="spinner-border spinner-border-sm"
+        class="spinner-border spinner-border-sm text-primary"
         role="status"
       >
         <span
           class="sr-only"
         />
       </div>
-      <div
-        class="spinner-text"
+      <p
+        class="ms-1 mb-0"
       >
-        <p
-          class="ms-1 mb-0"
-        >
-          Configuring Nextcloud…
-        </p>
-      </div>
+        Configuring Nextcloud…
+      </p>
     </div>
   </div>
 </div>
@@ -192,6 +249,30 @@ exports[`<Nextcloud /> should render error 1`] = `
   </h1>
   <p>
     Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server at home.
+  </p>
+  <p>
+    Before installing and configuring Nextcloud, it's important to first set up external storage, as using the router's internal flash memory can cause it to wear out quickly and affect performance. For more information, see the 
+    <a
+      href="https://docs.turris.cz/geek/nextcloud/nextcloud/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      documentation
+      <sup>
+        <i
+          class="fa"
+        />
+      </sup>
+    </a>
+    . 
+    For the best results, it's recommended to use an external drive or SSD. You can easily configure external storage by using the 
+    <a
+      href="/storage"
+      title="Go to Storage plugin"
+    >
+      Storage plugin
+    </a>
+    .
   </p>
   <p
     class="text-center text-danger"
@@ -208,6 +289,30 @@ exports[`<Nextcloud /> should render spinner 1`] = `
   </h1>
   <p>
     Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server at home.
+  </p>
+  <p>
+    Before installing and configuring Nextcloud, it's important to first set up external storage, as using the router's internal flash memory can cause it to wear out quickly and affect performance. For more information, see the 
+    <a
+      href="https://docs.turris.cz/geek/nextcloud/nextcloud/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      documentation
+      <sup>
+        <i
+          class="fa"
+        />
+      </sup>
+    </a>
+    . 
+    For the best results, it's recommended to use an external drive or SSD. You can easily configure external storage by using the 
+    <a
+      href="/storage"
+      title="Go to Storage plugin"
+    >
+      Storage plugin
+    </a>
+    .
   </p>
   <div
     class="spinner-wrapper my-3 text-center"

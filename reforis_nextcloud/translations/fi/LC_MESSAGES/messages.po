@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2024-07-01 16:14+0300\n"
+"POT-Creation-Date: 2024-10-09 15:18+0200\n"
 "PO-Revision-Date: 2022-08-26 14:41+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fi\n"
@@ -17,59 +17,81 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Generated-By: Babel 2.16.0\n"
 
-#: js/src/app.js:14 js/src/nextcloud/Nextcloud.js:37
+#: js/src/app.js:14 js/src/nextcloud/Nextcloud.js:40
 msgid "Nextcloud"
 msgstr ""
 
-#: js/src/nextcloud/ConfigurationForm.js:65
+#: js/src/nextcloud/ConfigurationForm.js:67
 msgid "Username"
 msgstr ""
 
-#: js/src/nextcloud/ConfigurationForm.js:73
+#: js/src/nextcloud/ConfigurationForm.js:76
 msgid "Password"
 msgstr ""
 
-#: js/src/nextcloud/ConfigurationForm.js:84
+#: js/src/nextcloud/ConfigurationForm.js:88
 msgid "Save"
 msgstr ""
 
-#: js/src/nextcloud/ConfigurationForm.js:93
+#: js/src/nextcloud/ConfigurationForm.js:97
 msgid "Username cannot be empty."
 msgstr ""
 
-#: js/src/nextcloud/ConfigurationForm.js:94
+#: js/src/nextcloud/ConfigurationForm.js:98
 msgid "Password cannot be empty."
 msgstr ""
 
-#: js/src/nextcloud/Nextcloud.js:39
+#: js/src/nextcloud/Nextcloud.js:42
 msgid ""
 "Nextcloud puts your data at your fingertips, under your control. Store "
 "your documents, calendar, contacts and photos on a server at home."
 msgstr ""
 
-#: js/src/nextcloud/Nextcloud.js:91
+#: js/src/nextcloud/Nextcloud.js:47
+msgid ""
+"Before installing and configuring Nextcloud, it's important to first set "
+"up external storage, as using the router's internal flash memory can "
+"cause it to wear out quickly and affect performance. For more "
+"information, see the "
+msgstr ""
+
+#: js/src/nextcloud/Nextcloud.js:55
+msgid "documentation"
+msgstr ""
+
+#: js/src/nextcloud/Nextcloud.js:64
+msgid ""
+"For the best results, it's recommended to use an external drive or SSD. "
+"You can easily configure external storage by using the "
+msgstr ""
+
+#: js/src/nextcloud/Nextcloud.js:68
+msgid "Storage plugin"
+msgstr ""
+
+#: js/src/nextcloud/Nextcloud.js:121
 msgid "Configuring Nextcloud…"
 msgstr ""
 
-#: js/src/nextcloud/Nextcloud.js:98
+#: js/src/nextcloud/Nextcloud.js:127
 msgid "Congratulations!🎉"
 msgstr ""
 
-#: js/src/nextcloud/Nextcloud.js:101
-msgid ""
-"You have configured your Nextcloud now you can visit the <a "
-"href=\"/nextcloud\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">site<sup><i class=\"fas fa-external-link-alt fa-sm "
-"ms-1\"></i></sup></a>."
+#: js/src/nextcloud/Nextcloud.js:129
+msgid "You have configured your Nextcloud and now you can visit the "
 msgstr ""
 
-#: js/src/nextcloud/Nextcloud.js:116
+#: js/src/nextcloud/Nextcloud.js:137
+msgid "site"
+msgstr ""
+
+#: js/src/nextcloud/Nextcloud.js:156
 msgid "Nextcloud Configuration"
 msgstr ""
 
-#: js/src/nextcloud/Nextcloud.js:117
+#: js/src/nextcloud/Nextcloud.js:157
 msgid "Create an administrator account for Nextcloud."
 msgstr ""
 
@@ -98,5 +120,13 @@ msgstr ""
 #~ "href=\"/nextcloud\" target=\"_blank\" rel=\"noopener "
 #~ "noreferrer\">site<sup><i class=\"fas fa-external-"
 #~ "link-alt fa-sm ml-1\"></i></sup></a>."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You have configured your Nextcloud now"
+#~ " you can visit the <a "
+#~ "href=\"/nextcloud\" target=\"_blank\" rel=\"noopener "
+#~ "noreferrer\">site<sup><i class=\"fas fa-external-"
+#~ "link-alt fa-sm ms-1\"></i></sup></a>."
 #~ msgstr ""
 
