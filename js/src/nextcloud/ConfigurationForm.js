@@ -1,11 +1,11 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 import {
     API_STATE,
@@ -27,6 +27,8 @@ ConfigurationForm.propTypes = {
 };
 
 export default function ConfigurationForm({ setIsConfiguring }) {
+    const [loginFeedbackError, setLoginFeedbackError] = useState(null);
+    const [passwordFeedbackError, setPasswordFeedbackError] = useState(null);
     const [setAlert] = useAlert();
     const [postNextcloudResponse, postNextcloud] = useAPIPost(
         API_URLs.nextcloud
@@ -64,20 +66,22 @@ export default function ConfigurationForm({ setIsConfiguring }) {
             <TextInput
                 label={_("Username")}
                 value={formData.login || ""}
-                error={formErrors.login}
+                error={loginFeedbackError && formErrors.login}
                 onChange={formChangeHandler((value) => ({
                     login: { $set: value },
                 }))}
+                onFocus={() => setLoginFeedbackError(true)}
             />
             <PasswordInput
                 label={_("Password")}
                 newPass
                 withEye
                 value={formData.password || ""}
-                error={formErrors.password}
+                error={passwordFeedbackError && formErrors.password}
                 onChange={formChangeHandler((value) => ({
                     password: { $set: value },
                 }))}
+                onFocus={() => setPasswordFeedbackError(true)}
             />
             <div className="text-end">
                 <Button type="submit" forisFormSize disabled={buttonIsDisabled}>
