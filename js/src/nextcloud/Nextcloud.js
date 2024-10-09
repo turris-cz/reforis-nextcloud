@@ -7,6 +7,8 @@
 
 import React, { useEffect, useState } from "react";
 
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     useAlert,
     SpinnerElement,
@@ -86,24 +88,33 @@ function Configuration({ ws, nextcloud, getNextcloud }) {
     let componentContent;
     if (nextcloud_configuring || isConfiguring) {
         componentContent = (
-            <div className="d-flex flex-row justify-content-center align-items-center text-muted">
-                <SpinnerElement small>
-                    <p className="ms-1 mb-0">{_("Configuring Nextcloud…")}</p>
-                </SpinnerElement>
+            <div className="d-flex justify-content-center align-items-center text-muted">
+                <SpinnerElement small className="text-primary" />
+                <p className="ms-1 mb-0">{_("Configuring Nextcloud…")}</p>
             </div>
         );
     } else if (nextcloud_configured) {
         componentContent = (
             <div className="text-muted text-center">
                 <p className="mb-2">{_("Congratulations!🎉")}</p>
-                <p
-                    className="mb-0"
-                    dangerouslySetInnerHTML={{
-                        __html: _(
-                            'You have configured your Nextcloud now you can visit the <a href="/nextcloud" target="_blank" rel="noopener noreferrer">site<sup><i class="fas fa-external-link-alt fa-sm ms-1"></i></sup></a>.'
-                        ),
-                    }}
-                />
+                <p className="mb-0">
+                    {_(
+                        "You have configured your Nextcloud and now you can visit the "
+                    )}
+                    <a
+                        href="/nextcloud"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {_("site")}
+                        <sup>
+                            <FontAwesomeIcon
+                                icon={faExternalLinkAlt}
+                                className="ms-1 fa-sm"
+                            />
+                        </sup>
+                    </a>
+                </p>
             </div>
         );
     } else {
