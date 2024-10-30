@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2024-10-09 15:18+0200\n"
-"PO-Revision-Date: 2024-07-24 15:09+0000\n"
+"PO-Revision-Date: 2024-10-30 19:02+0000\n"
 "Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
+"reforis-nextcloud-plugin/cs/>\n"
 "Language: cs\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis-"
-"nextcloud-plugin/cs/>\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.8.2-dev\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: js/src/app.js:14 js/src/nextcloud/Nextcloud.js:40
@@ -59,20 +60,25 @@ msgid ""
 "cause it to wear out quickly and affect performance. For more "
 "information, see the "
 msgstr ""
+"Před instalací a konfigurací systému Nextcloud je důležité nastavit externí "
+"úložiště, protože ukládání do vnitřního úložiště routeru může vést k jeho "
+"rychlému opotřebení a má dopady na výkon. Více informace najdete v "
 
 #: js/src/nextcloud/Nextcloud.js:55
 msgid "documentation"
-msgstr ""
+msgstr "dokumentaci"
 
 #: js/src/nextcloud/Nextcloud.js:64
 msgid ""
 "For the best results, it's recommended to use an external drive or SSD. "
 "You can easily configure external storage by using the "
 msgstr ""
+"Pro nejlepší výsledky se doporučuje používat externí disk nebo SSD. Externí "
+"úložiště můžete snadno nastavit pomocí "
 
 #: js/src/nextcloud/Nextcloud.js:68
 msgid "Storage plugin"
-msgstr ""
+msgstr "pluginu Storage"
 
 #: js/src/nextcloud/Nextcloud.js:121
 msgid "Configuring Nextcloud…"
@@ -84,11 +90,11 @@ msgstr "Gratulujeme!🎉"
 
 #: js/src/nextcloud/Nextcloud.js:129
 msgid "You have configured your Nextcloud and now you can visit the "
-msgstr ""
+msgstr "Nakonfigurovali jste svůj Nextcloud a nyní můžete navštívit "
 
 #: js/src/nextcloud/Nextcloud.js:137
 msgid "site"
-msgstr ""
+msgstr "stránku"
 
 #: js/src/nextcloud/Nextcloud.js:156
 msgid "Nextcloud Configuration"
@@ -127,4 +133,3 @@ msgstr "Nelze nakonfigurovat Nextcloud"
 #~ "webové rozhraní<sup><i class=\"fas fa-"
 #~ "external-link-alt fa-sm "
 #~ "ml-1\"></i></sup></a> ."
-
