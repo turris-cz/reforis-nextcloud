@@ -1,25 +1,24 @@
 # Slovak translations for reForis NextCloud Plugin.
-# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis NextCloud
 # Plugin project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2024-10-09 15:18+0200\n"
+"POT-Creation-Date: 2025-04-28 13:02+0200\n"
 "PO-Revision-Date: 2024-10-30 19:02+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
-"reforis-nextcloud-plugin/sk/>\n"
 "Language: sk\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris"
+"/reforis-nextcloud-plugin/sk/>\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8.2-dev\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: js/src/app.js:14 js/src/nextcloud/Nextcloud.js:40
 msgid "Nextcloud"
@@ -62,9 +61,9 @@ msgid ""
 "information, see the "
 msgstr ""
 "Pred inštaláciou a konfiguráciou služby Nextcloud je dôležité najprv "
-"nastaviť externé úložisko, pretože používanie internej flash pamäte routera "
-"môže spôsobiť jej rýchle opotrebovanie a ovplyvniť výkon. Viac informácií "
-"nájdete tu "
+"nastaviť externé úložisko, pretože používanie internej flash pamäte "
+"routera môže spôsobiť jej rýchle opotrebovanie a ovplyvniť výkon. Viac "
+"informácií nájdete tu "
 
 #: js/src/nextcloud/Nextcloud.js:55
 msgid "documentation"
@@ -75,8 +74,8 @@ msgid ""
 "For the best results, it's recommended to use an external drive or SSD. "
 "You can easily configure external storage by using the "
 msgstr ""
-"Na dosiahnutie najlepších výsledkov sa odporúča použiť externý disk alebo "
-"SSD. Externé úložisko môžete jednoducho nakonfigurovať pomocou "
+"Na dosiahnutie najlepších výsledkov sa odporúča použiť externý disk alebo"
+" SSD. Externé úložisko môžete jednoducho nakonfigurovať pomocou "
 
 #: js/src/nextcloud/Nextcloud.js:68
 msgid "Storage plugin"
@@ -123,3 +122,4 @@ msgstr "Nextcloud nie je možné nastaviť"
 #~ " noreferrer\">stránku<sup><i class=\"fas fa-"
 #~ "external-link-alt fa-sm "
 #~ "ms-1\"></i></sup></a>."
+

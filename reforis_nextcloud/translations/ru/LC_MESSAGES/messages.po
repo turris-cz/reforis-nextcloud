@@ -1,26 +1,25 @@
 # Russian translations for reForis NextCloud Plugin.
-# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis NextCloud
 # Plugin project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2024-10-09 15:18+0200\n"
+"POT-Creation-Date: 2025-04-28 13:02+0200\n"
 "PO-Revision-Date: 2025-04-18 14:01+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/turris/"
-"reforis-nextcloud-plugin/ru/>\n"
 "Language: ru\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/turris"
+"/reforis-nextcloud-plugin/ru/>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.11.1-dev\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: js/src/app.js:14 js/src/nextcloud/Nextcloud.js:40
 msgid "Nextcloud"
@@ -62,9 +61,9 @@ msgid ""
 "information, see the "
 msgstr ""
 "Перед установкой и настройкой Nextcloud важно сначала настроить внешнее "
-"хранилище, так как использование внутренней флэш-памяти маршрутизатора может "
-"привести к ее быстрому износу и повлиять на производительность. Для "
-"получения дополнительной информации см. "
+"хранилище, так как использование внутренней флэш-памяти маршрутизатора "
+"может привести к ее быстрому износу и повлиять на производительность. Для"
+" получения дополнительной информации см. "
 
 #: js/src/nextcloud/Nextcloud.js:55
 msgid "documentation"
@@ -75,8 +74,8 @@ msgid ""
 "For the best results, it's recommended to use an external drive or SSD. "
 "You can easily configure external storage by using the "
 msgstr ""
-"Для достижения наилучших результатов рекомендуется использовать внешний диск "
-"или SSD. Вы можете легко настроить внешнее хранилище, используя "
+"Для достижения наилучших результатов рекомендуется использовать внешний "
+"диск или SSD. Вы можете легко настроить внешнее хранилище, используя "
 
 #: js/src/nextcloud/Nextcloud.js:68
 msgid "Storage plugin"
@@ -122,3 +121,4 @@ msgstr "Невозможно настроить Nextcloud"
 #~ "target=\"_blank\" rel=\"noopener noreferrer\">сайт<sup><i"
 #~ " class=\"fas fa-external-link-alt "
 #~ "fa-sm ml-1\"></i></sup></a>."
+
