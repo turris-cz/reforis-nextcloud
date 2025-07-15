@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2025-04-28 13:02+0200\n"
-"PO-Revision-Date: 2024-10-23 02:15+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"PO-Revision-Date: 2025-07-16 23:02+0000\n"
+"Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/turris/"
+"reforis-nextcloud-plugin/de/>\n"
 "Language: de\n"
-"Language-Team: German <https://hosted.weblate.org/projects/turris"
-"/reforis-nextcloud-plugin/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.13-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/app.js:14 js/src/nextcloud/Nextcloud.js:40
@@ -60,6 +61,10 @@ msgid ""
 "cause it to wear out quickly and affect performance. For more "
 "information, see the "
 msgstr ""
+"Bevor Sie Nextcloud installieren und konfigurieren, ist es wichtig, dass Sie "
+"erst einen externen Speicher einrichten, denn diese Anwendung würde den "
+"internen Speicher schneller verschleißen lassen und so die Geräteleistung "
+"beeinträchtigen. Für weitere Informationen siehe "
 
 #: js/src/nextcloud/Nextcloud.js:55
 msgid "documentation"
@@ -70,10 +75,12 @@ msgid ""
 "For the best results, it's recommended to use an external drive or SSD. "
 "You can easily configure external storage by using the "
 msgstr ""
+"Am besten verwenden Sie ein externes Laufwerk oder eine SSD. Beim Einrichten "
+"des externen Speichers hilft Ihnen das "
 
 #: js/src/nextcloud/Nextcloud.js:68
 msgid "Storage plugin"
-msgstr ""
+msgstr "Storage-Plugin"
 
 #: js/src/nextcloud/Nextcloud.js:121
 msgid "Configuring Nextcloud…"
@@ -85,7 +92,7 @@ msgstr "Glückwunsch!🎉"
 
 #: js/src/nextcloud/Nextcloud.js:129
 msgid "You have configured your Nextcloud and now you can visit the "
-msgstr ""
+msgstr "Sie haben Ihre Nextcloud konfiguriert und können jetzt zur "
 
 #: js/src/nextcloud/Nextcloud.js:137
 msgid "site"
@@ -128,4 +135,3 @@ msgstr "Nextcloud kann nicht konfiguriert werden"
 #~ " noreferrer\">besuchen<sup><i class=\"fas fa-"
 #~ "external-link-alt fa-sm "
 #~ "ml-1\"></i></sup></a>."
-
