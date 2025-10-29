@@ -8,6 +8,16 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.4.0] - 2025-10-29
+
+### Added
+
+- Added & updated Weblate translations
+
+### Changed
+
+- Updated dependencies in package.json
+
 ## [1.3.0] - 2025-04-28
 
 ### Added
@@ -82,7 +92,8 @@ and this project adheres to
 
 - Add initial Nextcloud plugin
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-nextcloud/-/compare/v1.3.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-nextcloud/-/compare/v1.4.0...master
+[1.4.0]: https://gitlab.nic.cz/turris/reforis/reforis-nextcloud/-/compare/v1.3.0...v1.4.0
 [1.3.0]: https://gitlab.nic.cz/turris/reforis/reforis-nextcloud/-/compare/v1.2.0...v1.3.0
 [1.2.0]: https://gitlab.nic.cz/turris/reforis/reforis-nextcloud/-/compare/v1.1.0...v1.2.0
 [1.1.0]: https://gitlab.nic.cz/turris/reforis/reforis-nextcloud/-/compare/v1.0.1...v1.1.0
