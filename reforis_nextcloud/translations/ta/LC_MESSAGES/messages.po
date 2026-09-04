@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 1.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2025-10-29 17:15+0300\n"
-"PO-Revision-Date: 2025-04-19 23:59+0000\n"
-"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"PO-Revision-Date: 2026-09-04 14:06+0000\n"
+"Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language: ta\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/turris/reforis-"
 "nextcloud-plugin/ta/>\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
+"X-Generator: Weblate 2026.9\n"
 
 #: js/src/app.js:14 js/src/nextcloud/Nextcloud.js:40
 msgid "Nextcloud"
@@ -49,9 +50,8 @@ msgid ""
 "Nextcloud puts your data at your fingertips, under your control. Store "
 "your documents, calendar, contacts and photos on a server at home."
 msgstr ""
-"நெக்ச்ட் முகில் உங்கள் தரவை உங்கள் கட்டுப்பாட்டின் கீழ் உங்கள் விரல் "
-"நுனியில் வைக்கிறது. உங்கள் ஆவணங்கள், காலெண்டர், தொடர்புகள் மற்றும் "
-"புகைப்படங்களை வீட்டில் ஒரு சேவையகத்தில் சேமிக்கவும்."
+"நெக்ச்ட் முகில் உங்கள் தரவை உங்கள் கட்டுப்பாட்டின் கீழ் உங்கள் விரல் நுனியில் வைக்கிறது. உங்கள் "
+"ஆவணங்கள், காலெண்டர், தொடர்புகள் மற்றும் புகைப்படங்களை வீட்டில் ஒரு சேவையகத்தில் சேமிக்கவும்."
 
 #: js/src/nextcloud/Nextcloud.js:47
 msgid ""
@@ -60,10 +60,9 @@ msgid ""
 "cause it to wear out quickly and affect performance. For more "
 "information, see the "
 msgstr ""
-"நெக்ச்ட் கிளவுட்டை நிறுவி கட்டமைப்பதற்கு முன், முதலில் வெளிப்புற "
-"சேமிப்பிடத்தை அமைப்பது முதன்மை, ஏனெனில் திசைவியின் உள் ஃபிளாச் "
-"நினைவகத்தைப் பயன்படுத்துவது விரைவாக களைந்து செயல்திறனை பாதிக்கும். மேலும்"
-" தகவலுக்கு, பார்க்க "
+"நெக்ச்ட் கிளவுட்டை நிறுவி கட்டமைப்பதற்கு முன், முதலில் வெளிப்புற சேமிப்பிடத்தை அமைப்பது "
+"முதன்மை, ஏனெனில் திசைவியின் உள் ஃபிளாச் நினைவகத்தைப் பயன்படுத்துவது விரைவாக களைந்து "
+"செயல்திறனை பாதிக்கும். மேலும் தகவலுக்கு, பார்க்க "
 
 #: js/src/nextcloud/Nextcloud.js:55
 msgid "documentation"
@@ -74,9 +73,8 @@ msgid ""
 "For the best results, it's recommended to use an external drive or SSD. "
 "You can easily configure external storage by using the "
 msgstr ""
-"சிறந்த முடிவுகளுக்கு, வெளிப்புற இயக்கி அல்லது திட நிலை இயக்கி ஐப் "
-"பயன்படுத்த பரிந்துரைக்கப்படுகிறது. பயன்படுத்துவதன் மூலம் வெளிப்புற "
-"சேமிப்பிடத்தை எளிதாக உள்ளமைக்கலாம் "
+"சிறந்த முடிவுகளுக்கு, வெளிப்புற இயக்கி அல்லது திட நிலை இயக்கி ஐப் பயன்படுத்த "
+"பரிந்துரைக்கப்படுகிறது. பயன்படுத்துவதன் மூலம் வெளிப்புற சேமிப்பிடத்தை எளிதாக உள்ளமைக்கலாம் "
 
 #: js/src/nextcloud/Nextcloud.js:68
 msgid "Storage plugin"
@@ -93,8 +91,7 @@ msgstr "வாழ்த்துக்கள்!🎉"
 #: js/src/nextcloud/Nextcloud.js:129
 msgid "You have configured your Nextcloud and now you can visit the "
 msgstr ""
-"உங்கள் அடுத்த கிளவுட்டை நீங்கள் கட்டமைத்துள்ளீர்கள், இப்போது நீங்கள் "
-"பார்வையிடலாம் "
+"உங்கள் அடுத்த கிளவுட்டை நீங்கள் கட்டமைத்துள்ளீர்கள், இப்போது நீங்கள் பார்வையிடலாம் "
 
 #: js/src/nextcloud/Nextcloud.js:137
 msgid "site"
@@ -111,4 +108,3 @@ msgstr "நெக்ச்ட் கிளவுட்டுக்கு நி�
 #: reforis_nextcloud/__init__.py:46
 msgid "Cannot configure Nextcloud"
 msgstr "நெக்ச்ட் கிளவுட்டை உள்ளமைக்க முடியாது"
-
