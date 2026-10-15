@@ -1,25 +1,25 @@
-# Translations template for reForis NextCloud Plugin.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Estonian translations for reForis NextCloud Plugin.
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis NextCloud
 # Plugin project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 1.3.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2025-10-29 17:15+0300\n"
+"POT-Creation-Date: 2026-10-15 20:52+0300\n"
 "PO-Revision-Date: 2026-09-04 14:06+0000\n"
-"Last-Translator: Priit Jõerüüt <jrthwlate@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Estonian <https://hosted.weblate.org/projects/turris/reforis-"
-"nextcloud-plugin/et/>\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrthwlate@users.noreply.hosted.weblate.org>\n"
 "Language: et\n"
+"Language-Team: Estonian <https://hosted.weblate.org/projects/turris"
+"/reforis-nextcloud-plugin/et/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/app.js:14 js/src/nextcloud/Nextcloud.js:40
 msgid "Nextcloud"
@@ -50,8 +50,8 @@ msgid ""
 "Nextcloud puts your data at your fingertips, under your control. Store "
 "your documents, calendar, contacts and photos on a server at home."
 msgstr ""
-"Nextcloud hoiab sinu andmed käeulatuses ja sinu kontrolli all. Salvesta oma "
-"dokumendid, kalender, kontaktid ja fotod kodusesse serverisse."
+"Nextcloud hoiab sinu andmed käeulatuses ja sinu kontrolli all. Salvesta "
+"oma dokumendid, kalender, kontaktid ja fotod kodusesse serverisse."
 
 #: js/src/nextcloud/Nextcloud.js:47
 msgid ""
@@ -60,9 +60,9 @@ msgid ""
 "cause it to wear out quickly and affect performance. For more "
 "information, see the "
 msgstr ""
-"Enne Nextcloudi paigaldamist ja seadistamist on oluline esmalt seadistada "
-"välismälu, kuna ruuteri sisemise välkmälu kasutamine võib põhjustada selle "
-"kiiret kulumist ja mõjutada töökindlust. Lisateavet leiad "
+"Enne Nextcloudi paigaldamist ja seadistamist on oluline esmalt seadistada"
+" välismälu, kuna ruuteri sisemise välkmälu kasutamine võib põhjustada "
+"selle kiiret kulumist ja mõjutada töökindlust. Lisateavet leiad "
 
 #: js/src/nextcloud/Nextcloud.js:55
 msgid "documentation"
@@ -73,8 +73,8 @@ msgid ""
 "For the best results, it's recommended to use an external drive or SSD. "
 "You can easily configure external storage by using the "
 msgstr ""
-"Parimate tulemuste saavutamiseks soovitame kasutada välist kõvaketast või "
-"SSD-ketast. Välist salvestusseadet saad hõlpsasti seadistada, kasutades "
+"Parimate tulemuste saavutamiseks soovitame kasutada välist kõvaketast või"
+" SSD-ketast. Välist salvestusseadet saad hõlpsasti seadistada, kasutades "
 
 #: js/src/nextcloud/Nextcloud.js:68
 msgid "Storage plugin"
@@ -107,3 +107,4 @@ msgstr "Lisa Nextcloudi peakasutaja konto."
 #: reforis_nextcloud/__init__.py:46
 msgid "Cannot configure Nextcloud"
 msgstr "Nextcloudi seadistamine ei õnnestu"
+
