@@ -1,16 +1,17 @@
 # French translations for reForis NextCloud Plugin.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis NextCloud
 # Plugin project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: reForis NextCloud Plugin 0.0.1\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2025-10-29 17:15+0300\n"
-"PO-Revision-Date: 2023-01-08 08:50+0000\n"
-"Last-Translator: h <tachyglossues@gmail.com>\n"
+"POT-Creation-Date: 2026-10-15 20:52+0300\n"
+"PO-Revision-Date: 2026-09-04 14:05+0000\n"
+"Last-Translator: ButterflyOfFire "
+"<boffire@users.noreply.hosted.weblate.org>\n"
 "Language: fr\n"
 "Language-Team: French <https://hosted.weblate.org/projects/turris"
 "/reforis-nextcloud-plugin/fr/>\n"
@@ -18,7 +19,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/app.js:14 js/src/nextcloud/Nextcloud.js:40
 msgid "Nextcloud"
@@ -34,7 +35,7 @@ msgstr "Mot de passe"
 
 #: js/src/nextcloud/ConfigurationForm.js:88
 msgid "Save"
-msgstr ""
+msgstr "Enregistrer"
 
 #: js/src/nextcloud/ConfigurationForm.js:97
 msgid "Username cannot be empty."
@@ -78,7 +79,7 @@ msgstr ""
 
 #: js/src/nextcloud/Nextcloud.js:127
 msgid "Congratulations!🎉"
-msgstr ""
+msgstr "Félicitations !🎉"
 
 #: js/src/nextcloud/Nextcloud.js:129
 msgid "You have configured your Nextcloud and now you can visit the "
